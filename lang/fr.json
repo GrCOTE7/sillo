@@ -90,6 +90,7 @@
     "Introduction": "Introduction",
     "Invalid JSON was returned from the route.": "Un JSON non valide a été renvoyé par la route.",
     "Invalid SSL Certificate": "Certificat SSL invalide",
+    "Left: :nbchars chars": "{0} Fini:  Plus de place ! (:max_chars caractères saisis / :max_chars)|{1} Encore max :nbchars caractère / :max_chars|[2,3] Encore max :nbchars caractères / :max_chars|[4,*] Encore plus de 5 caractères (Restent :nbchars / :max_chars caractères max)",
     "Length Required": "Longueur requise",
     "Like": "Comme",
     "Load": "Charger",
@@ -403,5 +404,6 @@
     "Use this form to ask me!": "Utilisez ce formulaire pour avoir une réponse !",
     "Your question here...": "Votre question ici...",
     "An answer has been created on your comment": "Une réponse a été apportée à votre commentaire",
-    "Show this answer": "Voir cette réponse"
+    "Show this answer": "Voir cette réponse",
+    "uuu :nbCharsLeft": "{1} aaa :charsNbLeft|{2,*} bb :charsNbLeft"
 }

@@ -73,7 +73,7 @@ class extends Component {
             <x-textarea
                 wire:model="body"
                 label="{{ __('Content') }}"
-                hint="{{ __('Max 1000 chars') }}"
+                hint="{{ __('Max :nleft chars') }}"
                 rows="5"
                 inline
             />

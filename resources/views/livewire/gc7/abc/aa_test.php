@@ -10,7 +10,8 @@ use Livewire\Volt\Component;
 new 
 #[Layout('components.layouts.auth')]
 class extends Component {
-	public $name;
+	public $postId = 7;
+	
 	public function mount()
 	{
 		// $this->name = 'abc';

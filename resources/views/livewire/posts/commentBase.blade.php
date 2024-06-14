@@ -151,7 +151,7 @@ new class extends Component {
     <!-- Si aucun commentaire n'existe, affiche le formulaire de création -->
     @else
 
-        <x-card title="{{ __('Leave a comment') }}" shadow="hidden">
+        {{-- <x-card title="{{ __('Leave a comment') }}" shadow="hidden">
             <x-form wire:submit="createComment" class="mb-4">
                 <x-textarea
                     label=""
@@ -164,7 +164,9 @@ new class extends Component {
                     <x-button label="{{ __('Save') }}" class="btn-primary" type="submit" spinner="save" />
                 </x-slot:actions>
             </x-form>
-        </x-card>
+        </x-card> --}}
+        
+        <livewire:helpers.form-textarea :postId=$postId action='createComment' title='Leave a comment' placeholder='Your comment' />
 
     @endif
 

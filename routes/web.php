@@ -6,6 +6,8 @@ use App\Http\Middleware\IsAdmin;
 use App\Http\Middleware\IsAdminOrRedac;
 
 // Routes publiques
+Volt::route('/t', 'gc7.abc.aaa_test');
+
 Volt::route('/', 'index');
 Volt::route('/contact', 'contact')->name('contact');
 Volt::route('/category/{slug}', 'index');

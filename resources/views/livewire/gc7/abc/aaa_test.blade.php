@@ -1,9 +1,19 @@
 <?php
 include_once 'aa_test.php';
-$count = 777;
 ?>
 
 <div>
+
+    {{-- <x-partials.gc7.helpers.uuu name='Lionel'/> --}}
+    <x-partials.gc7.helpers.form-textarea :postId=$postId title='TheTitle' placeholder='ThePlaceHolder' cancelBtn=1 />
+
+    {{-- 
+    <x-partials.helpers.textareahelper postId=5 action='createComment' $title='Leave a comment' placeholder='Your comment' /> --}}
+
+
+    {{-- <livewire:helpers.form-textarea :postId=$postId id=222 action='updateComment' title='Update your comment' cancelBtn=True />
+    <livewire:helpers.form-textarea :postId=$postId id=333 action='createAnswer' title='Your answer' placeholder='Your answer' cancelBtn=True />
+    <livewire:helpers.form-textarea :postId=$postId id='444' action='updateAnswer' title='Update your comment' cancelBtn=True /> --}}
     {{-- <livewire:gc7.abc.uuu lastname='Côte'/> --}}
     {{-- <livewire:gc7.helpers.form-textarea /> --}}
     {{-- <livewire:gc7.abc.alpine /> --}}

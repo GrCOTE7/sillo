@@ -20,6 +20,8 @@
             <img src="{{ asset('storage/banniere.png') }}" class="w-full" alt="Laravel">
         </a>
     </div>
+    
+    <livewire:navigation.gc7 />
 
     {{-- NAVBAR --}}
     <livewire:navigation.navbar :$menus />

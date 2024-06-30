@@ -9,6 +9,9 @@ use App\Http\Middleware\IsAdminOrRedac;
 use Illuminate\Support\Facades\Route;
 use Livewire\Volt\Volt;
 
+// Route pour le tuto laravel Livewire  https://www.youtube.com/watch?v=VyIjDnYviD4&list=PLqDySLfPKRn543NM_fTrJRdhjBgsogzSC&index=1
+//Route::get('/welcome', 'cliquer');
+
 // Routes publiques
 Volt::route('/', 'index');
 

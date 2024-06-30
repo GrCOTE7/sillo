@@ -4,13 +4,15 @@
  * (ɔ) LARAVEL.Sillo.org - 2015-2024
  */
 
-use App\Http\Middleware\IsAdmin;
-use App\Http\Middleware\IsAdminOrRedac;
-use Illuminate\Support\Facades\Route;
 use Livewire\Volt\Volt;
+use App\Livewire\Cliquer;
+use App\Http\Middleware\IsAdmin;
+use Illuminate\Support\Facades\Route;
+use App\Http\Middleware\IsAdminOrRedac;
 
 // Route pour le tuto laravel Livewire  https://www.youtube.com/watch?v=VyIjDnYviD4&list=PLqDySLfPKRn543NM_fTrJRdhjBgsogzSC&index=1
-//Route::get('/welcome', 'cliquer');
+
+Route::get('/welcome', Cliquer::class);
 
 // Routes publiques
 Volt::route('/', 'index');

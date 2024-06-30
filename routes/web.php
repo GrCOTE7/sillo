@@ -13,6 +13,7 @@ use App\Http\Middleware\IsAdminOrRedac;
 // Route pour le tuto laravel Livewire  https://www.youtube.com/watch?v=VyIjDnYviD4&list=PLqDySLfPKRn543NM_fTrJRdhjBgsogzSC&index=1
 
 Route::get('/welcome', Cliquer::class);
+Volt::route('/welcomevolt', 'cliquervolt');
 
 // Routes publiques
 Volt::route('/', 'index');

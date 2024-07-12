@@ -4,6 +4,8 @@
     </IfModule>
 
     RewriteEngine On
+    
+    RewriteRule ^(z_external_project|zzz)($|/) - [L,NC]
 
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .

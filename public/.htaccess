@@ -5,7 +5,7 @@
 
     RewriteEngine On
     
-    RewriteRule ^(z_external_project|zzz)($|/) - [L,NC]
+    # RewriteRule ^(z|zzz)($|/) - [L,NC]
 
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .

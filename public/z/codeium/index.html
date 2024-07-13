@@ -5,11 +5,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>CodeIUM</title>
     </head>
-    <body>
-        <h1>Salut !</h1>
-        <p>Bienvenue sur mon site web !</p>
-        <button id="btn">Cliquez-moi !</button>
-        <button class="secondary-button">À notre sujet</button>
+    <body class="mx-5 my-3">
+        <h1 class="text-xl font-bold">CodeIUM</h1>
+        <p class="text-red-500 mb-3">
+            Source:
+            <a class="font-bold" href="https://www.youtube.com/watch?v=hpbUfBSzykk" target="_blank">AI better than GH Copilot</a>
+        </p>
+        <div id="output"></div>
+        <div class="mt-3">
+            <button id="btn">Cliquez-moi !</button>
+            <button class="secondary-button">À notre sujet</button>
+        </div>
         <div class="our-grid">
             <div class="feature-card">
                 <h2>Feature 1</h2>
@@ -26,6 +32,7 @@
         </div>
         <input type="text" class="petName">
         <button class="coolButton">Je suis un bouton cool</button>
-        <script type="module" src="/main.js"></script>
+        {# <script type="module" src="/main.js"></script> #}
+        {# <script src="/main.js"></script> #}
     </body>
 </html>

@@ -1,8 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: rgb(0, 0, 165);
 }
-
 
 button {
   background-color: blue;
@@ -11,12 +14,10 @@ button {
   border-radius: 5px;
   border: none;
   cursor: pointer;
-  transition: all 0.7s ease-in-out;
 }
 
 button:hover {
   background-color: darkblue;
-  transition: all 0.7s ease-in-out;
 }
 
 .secondary-button {
@@ -26,12 +27,10 @@ button:hover {
   border-radius: 5px;
   border: none;
   cursor: pointer;
-  transition: all 0.7s ease-in-out;
 }
 
 .secondary-button:hover {
   background-color: rgb(156, 48, 1);
-  transition: all 0.7s ease-in-out;
 }
 
 .our-grid {
@@ -65,6 +64,7 @@ button:hover {
 .bad {
   color: red;
 }
+
 .coolButton {
   background: linear-gradient(to right, blue, red);
   background-size: 200% auto;
@@ -74,10 +74,21 @@ button:hover {
   border-radius: 6px;
   border: none;
   cursor: pointer;
-  transition: all 0.7s ease-in-out;
 }
 
 .coolButton:hover {
   background-position: right center;
+}
+
+button,
+input,
+.feature-card {
   transition: all 0.7s ease-in-out;
+}
+
+button:hover,
+input:hover,
+.feature-card:hover {
+  transition: all 0.7s ease-in-out;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
 }

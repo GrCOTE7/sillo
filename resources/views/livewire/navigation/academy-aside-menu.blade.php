@@ -17,6 +17,9 @@
             class="mt-4 ml-0 pt-1 px-1 text-xs text-left rounded mr-3 {{ request()->is('frameworks') ? 'bg-gray-700 text-white' : '' }}">
             <a href="/frameworks">FRAMEWORKS</a>
         </div>
+        
+        <div class='x-auto w-full text-center pr-3'><small><a href="/z/codeium/start.php">IA</a></small></div>
+        
         <div class='x-auto w-full text-center mb-4 pr-3'><small><a href="/t">Back Test</a></small></div>
 
         @foreach ($frameworksLinks as $framework => $links)

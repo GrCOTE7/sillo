@@ -35,7 +35,10 @@
 <div style="text-align: center;">En cours:</div>
 
 
+
 1) [Chat V3: Real Time Chat With Laravel Reverb - Laravel 11, Livewire 3 Volt, AlpineJS and TailwindCSS](https://www.youtube.com/watch?v=yLGCxxwiygc&pp=ygUIYWxwaW5lanM%3D) - 22'
+
+2) [Other reverb Ap](https://www.youtube.com/watch?v=ceOaI0O_LSA&ab_channel=Laravel) - 1:07'
 
 2) [Chat V4: Laracon EU 2024 Reverb](https://www.youtube.com/watch?v=yrL5eCMpqtc) - 35' - Laravel Reverb for Real-Time Laravel
 
@@ -51,14 +54,15 @@
 
 1) [Découverte Livewire](https://www.youtube.com/watch?v=zPNdejemUtg) - 52' GA FR
 
+1) [Série vidéo free](https://livewire.laravel.com/screencast/getting_started/installation) -  11 épisodes
+
+
 <div style="text-align: center">En cours:</div>
-
-1) [Série free](https://livewire.laravel.com/screencast/getting_started/installation) -  11 épisodes (Fait 7)
-
-//2do doc Livewire
 
 2) [Serie 16](https://www.youtube.com/watch?v=m10TZpWKAVI&list=PLkZU2rKh1mT-Gx1PhzO5Cj83ntdZRmcbo) - 16 épisodes 2023
    
+//2do doc Livewire
+
 3) [Super serie](https://www.youtube.com/watch?v=dz6_RFrJQlo&list=PLqDySLfPKRn71KGwiS3JGf9aAseh6Gghz) - Série - 64 épisodes 2024
    
 4) [A kit of resources, and tuto too](https://github.com/livewire/awesome-tall-stack?tab=readme-ov-file) A kit of resources, and tuto too - GH 2022

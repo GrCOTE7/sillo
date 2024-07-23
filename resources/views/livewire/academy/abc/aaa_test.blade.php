@@ -35,4 +35,5 @@ include_once 'aa_test.php';
     {{-- {{ $users->pluck('name', 'role')->join(', ') }} --}}
 
     {{-- @livewire('uuu2') --}}
+
 </div>

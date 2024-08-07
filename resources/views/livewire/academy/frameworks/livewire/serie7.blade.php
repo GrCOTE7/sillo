@@ -4,16 +4,16 @@ use Livewire\Attributes\{Layout, Title};
 use Livewire\Volt\Component;
 
 new #[Title('Serie7')] #[Layout('components.layouts.academy')] class extends Component {
-	public $btns         = ['Users', 'Infinite_Scroll', 'Offset', 'Api', 'Test'];
-	public $btnToClick   = 'Users'; // btn de la liste ci-dessus à auto cliquer
-	public $subtitle     = 'Chargement...';
-	protected $listeners = ['update-subtitle' => 'updateSubtitle'];
+    public $btns = ['Users', 'Infinite_Scroll', 'Offset', 'Api', 'Test'];
+    public $btnToClick = 'Users'; // btn de la liste ci-dessus à auto cliquer
+    public $subtitle = 'Chargement...';
+    protected $listeners = ['update-subtitle' => 'updateSubtitle'];
 
-	public function updateSubtitle($newSubtitle)
-	{
-		$this->subtitle = $newSubtitle;
-		logger('Subtitle updated to: ' . $newSubtitle);
-	}
+    public function updateSubtitle($newSubtitle)
+    {
+        $this->subtitle = $newSubtitle;
+        logger('Subtitle updated to: ' . $newSubtitle);
+    }
 }; ?>
 <div x-data="{ choice: 'menuLivewire' }" class="w-full">
 
@@ -61,6 +61,7 @@ new #[Title('Serie7')] #[Layout('components.layouts.academy')] class extends Com
         let btnToClick = @js($btnToClick);
         console.log('JS cliquera sur le bouton ' + btnToClick);
     </script>
+
     @include('livewire.academy.frameworks.livewire.serie7.00_click')
 
 </div>

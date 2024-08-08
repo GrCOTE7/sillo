@@ -7,9 +7,9 @@ include_once 'frameworks.php';
     </x-header>
 
     {{-- <livewire:academy.frameworks.livewire.hello-world /> --}}
-    {{-- <livewire:academy.frameworks.livewire.counter /> --}}
     {{-- <livewire:academy.frameworks.livewire.counter by=3/> --}}
 
     {{-- <livewire:academy.frameworks.livewire.Todos /> --}}
+    <livewire:academy.divers.Seeder />
 
 </div>

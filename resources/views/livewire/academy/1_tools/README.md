@@ -18,3 +18,5 @@ Dans nos exemples:
 | Texte           | Texte centré  |  Texte aligné à droite |
 | Autre texte     | Encore centré | Encore aligné à droite |
 
+
+![Qu'apporte un haricot...?](./assets/haricot.jpg)

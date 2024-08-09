@@ -13,8 +13,11 @@ use Livewire\Volt\Volt;
 Volt::route('/', 'index');
 
 Volt::route('/academy', 'academy.academy')->name('academy.academy');
-Volt::route('/t', 'academy.abc.aaa_test')->name('academy.test');
-Volt::route('/frameworks', 'academy.frameworks');
+Volt::route('/t', 'academy.0_quick_test.test')->name('academy.test');
+
+Volt::route('/tools', 'academy.1_tools.index');
+
+Volt::route('/frameworks', 'academy.3_frameworks');
 Route::prefix('/framework')->group(function () {
 	getAcademyFrameworksRoutes();
 });

@@ -10,6 +10,7 @@
     "require": {
         "php": "^8.2",
         "barryvdh/laravel-debugbar": "^3.13",
+        "binarytorch/larecipe": "^2.7",
         "blade-ui-kit/blade-icons": "^1.6",
         "blade-ui-kit/blade-ui-kit": "^0.6.2",
         "creativeorange/gravatar": "^1.0",

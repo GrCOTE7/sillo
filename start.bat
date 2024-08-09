@@ -29,6 +29,8 @@ call php artisan cache:clear
 call php artisan view:clear
 call php artisan config:clear
 
+call composer dump-autoload
+
 echo.
 echo Démarrage des serveurs.
 
@@ -39,7 +41,7 @@ start /b php artisan serve
 
 @REM Start serveur de Mail: Décommenter la 2ème ligne ci-dessous
 @REM → http://localhost:8025/#
-@ start /b config/MailHog_windows_amd64.exe
+@REM start /b config/MailHog_windows_amd64.exe
 
 REM Envoi de l'email de Test
 @REM powershell.exe -ExecutionPolicy Bypass -File "testMailServer.ps1"

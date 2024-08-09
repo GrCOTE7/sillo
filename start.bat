@@ -37,9 +37,9 @@ start /b php artisan reverb:start
 start /b php artisan serve
 
 
-@REM Start serveur de Mail
+@REM Start serveur de Mail: Décommenter la 2ème ligne ci-dessous
 @REM → http://localhost:8025/#
-start /b config/MailHog_windows_amd64.exe
+@ start /b config/MailHog_windows_amd64.exe
 
 REM Envoi de l'email de Test
 @REM powershell.exe -ExecutionPolicy Bypass -File "testMailServer.ps1"

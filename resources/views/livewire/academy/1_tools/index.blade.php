@@ -9,7 +9,7 @@ new #[Title('Tools')] #[Layout('components.layouts.academy')] class extends Comp
     public function mount()
     {
         $file = file_get_contents(resource_path('views/livewire/academy/1_tools/README.md'));
-        $file = $this->adjustImagePaths($file);
+        $file = '<div class="border-1">' . $this->adjustImagePaths($file) . '</div>';
         $this->content = Markdown::convert($file)->getContent();
     }
     private function adjustImagePaths($markdownContent)
@@ -36,25 +36,24 @@ new #[Title('Tools')] #[Layout('components.layouts.academy')] class extends Comp
 
     //2do Présentation des outils présentés ici + liens / page des détails
 
-    {!! $content !!}
+{{-- {{ $content }} --}}
+{!! $content !!}
 
-@markdown
-    # Source
+    @markdown
+# Source
 
-    **[The GrahamCampbell Laravel-Markdown repository](https://github.com/GrahamCampbell/Laravel-Markdown)**
+**[The GrahamCampbell Laravel-Markdown repository](https://github.com/GrahamCampbell/Laravel-Markdown)**
 
-    ---
-@endmarkdown
+---
+    @endmarkdown
 
-@markdown
-    ---
+    @markdown
+# Uhhh
 
-    # Uhhh
+Sdfhsghsd sdfdsf:
 
-    Sdfhsghsd sdfdsf:
-
-    - 1 Ok
-    - 2 Très ok
-@endmarkdown
+- 1 Ok
+- 2 Très ok
+    @endmarkdown
 
 </div>

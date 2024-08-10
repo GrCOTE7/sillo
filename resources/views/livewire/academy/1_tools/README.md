@@ -1,9 +1,10 @@
-# Outils préconisés
+# Dans fichier (README.md)
+
+(Jusqu'au footer habituel)
 
 ---
 
-- **Git**
-- *Ok*
+**Git**
 
 --- 
 
@@ -18,5 +19,6 @@ Dans nos exemples:
 | Texte           | Texte centré  |  Texte aligné à droite |
 | Autre texte     | Encore centré | Encore aligné à droite |
 
+![Qu'apporte un haricot...?](haricot.jpg)
 
-![Qu'apporte un haricot...?](./assets/haricot.jpg)
+<!-- ![Qu'apporte un haricot...?](./assets/haricot.jpg) -->

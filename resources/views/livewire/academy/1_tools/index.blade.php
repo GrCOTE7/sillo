@@ -21,7 +21,7 @@ new #[Title('Tools')] #[Layout('components.layouts.academy')] class extends Comp
                 $path = $matches[2];
 
                 // Ajuster le chemin en utilisant la fonction asset()
-                $url = asset('assets/' . basename($path));
+                $url = asset('assets/academy/img/doc/' . basename($path));
 
                 return "![{$altText}]({$url})";
             },

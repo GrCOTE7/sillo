@@ -3,8 +3,8 @@
 ---
 **Git**
 ---
-  - Éditeur (VSC-Extensions majeures: Todo, GitGraph, Codium, markdown preview)
-  - Serveurs (PHP, MySQL, Mail)
+- Éditeur (VSC-Extensions majeures: Todo, GitGraph, Codium, markdown preview)
+- Serveurs (PHP, MySQL, Mail)
 
 Dans nos exemples:000
 
@@ -13,8 +13,9 @@ Dans nos exemples:000
 |:----------------|:-------------:|-----------------------:|
 | Texte           | Texte centré  |  Texte aligné à droite |
 | Autre texte     | Encore centré | Encore aligné à droite |
+
 <div style="text-align: center; margin: 0 auto; border-radius: 7px; border: 7px solid red;">
 
-![Qu'apporte un haricot...?](../../../../../public/assets/haricot.jpg)
+![Qu'apporte un haricot...?](../../../../../public/assets/academy/img/doc/haricot.jpg)
 
 </div>

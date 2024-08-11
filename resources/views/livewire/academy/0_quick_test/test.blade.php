@@ -1,5 +1,5 @@
 <?php
-include_once 'aa_test.php';
+include_once 'test.php';
 ?>
 <div>
     <x-header class="mb-0" title="Test" shadow separator progress-indicator />

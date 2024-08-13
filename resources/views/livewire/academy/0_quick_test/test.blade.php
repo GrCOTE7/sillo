@@ -2,11 +2,31 @@
 include_once 'test.php';
 ?>
 <div>
-    <x-header class="mb-0" title="Test" shadow separator progress-indicator />
 
     <h1>Ready.</h1>
 
     <hr>
+    @php
+        use App\Services\MarkdownService;
+        
+        // Lire le contenu du fichier Markdown
+        $markdownPath = resource_path('views/livewire/academy/0_quick_test/content.md');
+        $txt = file_get_contents($markdownPath);
+
+        // Injecter le service MarkdownService
+        $markdownService = app(MarkdownService::class);
+
+        // Convertir le Markdown en HTML
+        $htmlContent = $markdownService->parse($txt);
+
+    @endphp
+
+
+    {!! $htmlContent !!}
+
+    <hr>
+
+
 
     <div class="my-3 font-bold text-xl">Users (1 DB request) :</div>
 

@@ -1,0 +1,11 @@
+Hi All !
+
+Super piqure de rappel pour une installation complète d'un CMS à partir de rien :-) ! Merci BestMomo ;-) !
+
+Aussi, possible que pour certains ' nouveaux "<i>laraveliens</i>" ' (Mais aussi sans doute pour tous en fait, après quelques temps passés...), cela fasse beaucoup d'infos dans cette seule page... Alors voici un ch'ti Mémo qui permet d'en retrouver rapidement les phases clés ;-) :
+
+<p style="text-align:center; color:cyan"><strong><u><a href = "https://laravel.sillo.org/doc/memo" target="_blank">Mémo d'installation (Init)</a></u></strong></p>
+
+@ ++ :-) !
+
+P.S.! Et comme d'hab., avec le <strong><u></u><a href="https://github.com/bestmomo/sillo" target="_blank">dépôt du projet</a></u></strong>,vous pouvez même modifier celui-ci :-) !

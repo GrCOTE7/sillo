@@ -5,6 +5,7 @@
  */
 
 use App\Http\Controllers\AccordionController;
+use App\Http\Controllers\countController;
 use App\Http\Controllers\PetsController;
 use App\Http\Controllers\WelcomeController;
 use Illuminate\Support\Facades\Route;
@@ -16,6 +17,7 @@ Route::get('/pet', [PetsController::class, 'index'])->name('pet)');
 
 Route::get('/accordion', [AccordionController::class, 'index'])->name('accordion');
 
+Route::get('/count', [countController::class, 'index'])->name('count');
 // Route::get('/', function () {
 //     // event(new Accueil);
 //     return view('welcome');

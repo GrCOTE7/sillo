@@ -3,10 +3,11 @@
 use Livewire\Attributes\{Layout, Title};
 use Livewire\Volt\Component;
 
-new #[Layout('components.layouts.acaLight')] class// #[Title('Académie')]
- extends Component {
+new
+#[Layout('components.layouts.acaLight')] 
+class extends Component {
     //2do ranger dans MM: git reset --soft HEAD~1
-// → Annule le dernier commit en gardant les changements
+    // → Annule le dernier commit en gardant les changements
 }; ?>
 
 <div class='text-lg'>

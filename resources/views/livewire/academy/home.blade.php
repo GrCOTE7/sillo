@@ -16,6 +16,8 @@ new #[Layout('components.layouts.acaLight')] class// #[Title('Académie')]
 
     <p class='text-justify font-bold text-xl'>L'académie est un espace d'Études, de Travaux Pratiques et de Test.</p><br>
 
+    <p>Bien-sûr, <i>toute cette partie est davantage appréciable après un ' clone ' *** du projet en local</i>...</p><br>
+    
     <p class='text-justify'>
         Conseil: Quelque soient vos développements, n'y utilisez pas les tables de base du projet Laravel. Préférez
         utiliser
